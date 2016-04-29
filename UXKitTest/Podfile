@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'UXKitTest', :exclusive => true do
+  pod 'UXKit', :path => '../'
+  pod 'Masonry'
+end
+
