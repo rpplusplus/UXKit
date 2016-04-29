@@ -19,7 +19,6 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    NSLog(@"Fuck");
     // Insert code here to initialize your application
     UXViewController* viewController = [ViewController new];
     self.windowController = [[UXWindowController alloc] initWithRootViewController: [[UXNavigationController alloc] initWithRootViewController:viewController]];

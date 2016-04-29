@@ -1,6 +1,6 @@
 {
   "name": "UXKit",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A Pod Repo Wrapper the private framework UXKit",
   "description": "Thanks the awesome project: UXKit-Headers-And-Sample",
   "homepage": "https://github.com/rpplusplus/UXKit",
@@ -10,11 +10,11 @@
   },
   "source": {
     "git": "https://github.com/rpplusplus/UXKit.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "osx": "10.8"
   },
   "vendored_frameworks": "UXKit/Frameworks/UXKit.framework",
-  "public_header_files": "UXKit/Headers/*.h"
+  "source_files": "UXKit/Headers/*.h"
 }
