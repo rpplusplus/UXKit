@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UXKit_Example', :exclusive => true do
+  pod 'UXKit', :path => '../'
+end
+
+target 'UXKit_Tests', :exclusive => true do
+  pod 'UXKit', :path => '../'
+
+  
+end
